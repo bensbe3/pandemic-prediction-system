@@ -1,0 +1,25 @@
+# Logs and temporary files
+logs/
+*.log
+.DS_Store
+
+# Virtual environment
+pandemic-venv/
+*-venv/
+__pycache__/
+*.py[cod]
+
+# Data files that are too large
+/data/raw/*.csv
+
+# Kafka and Spark temporary files
+/tmp/
+checkpoint/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Archive files
+*.tar.gz
+*.tgz
